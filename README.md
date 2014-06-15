@@ -1,2 +1,2 @@
-Puerto-Rico
+PuertoRico
 ===========
