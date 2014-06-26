@@ -18,6 +18,7 @@ import Modules.ImageIdx;
  * @author steve
  */
 public class FInformation extends javax.swing.JDialog {
+    private static final long serialVersionUID = 1L;
 //private boolean PRBuildingSelected = false;
 //private TilePickIdx PRTileSelected = TilePickIdx.NullTPI;
 //private InfoCardState InfoCS = InfoCardState.inActiveICS;

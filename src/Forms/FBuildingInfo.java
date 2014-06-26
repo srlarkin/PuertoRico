@@ -22,6 +22,7 @@ import static Modules.ResourceIdx.*;
  * @author steve
  */
 public class FBuildingInfo extends javax.swing.JDialog {
+    private static final long serialVersionUID = 1L;
 //private int PRBCandidateSlot = 0;
 //private int PRBCandidateEffectiveCost = 0;
 //private BuildingIdx PRBCandidateBldg = BuildingIdx.NullBldgIdx;

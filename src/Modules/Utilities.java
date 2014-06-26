@@ -144,7 +144,7 @@ public static void LogIt(String LogString) {
 
 public static Object resizeArray (Object oldArray, int newSize) {
    int oldSize = 0;
-   Class elementType = oldArray.getClass().getComponentType();
+   Class<?> elementType = oldArray.getClass().getComponentType();
    Object newArray = java.lang.reflect.Array.newInstance(
          elementType,newSize);
    int preserveLength = 0;

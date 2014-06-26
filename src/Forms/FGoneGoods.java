@@ -29,6 +29,7 @@ import static Modules.ResourceIdx.*;
  * @author steve
  */
 public class FGoneGoods extends javax.swing.JDialog {
+    private static final long serialVersionUID = 1L;
 
     /** Creates new form FGoneGoods */
     public FGoneGoods(java.awt.Frame parent, boolean modal) {

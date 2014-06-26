@@ -18,6 +18,7 @@ import Modules.Constants;
  * @author steve
  */
 public class FProductionGrid extends javax.swing.JPanel {
+    private static final long serialVersionUID = 1L;
 
     /** Creates new form FProductionGrid */
     public FProductionGrid() {
