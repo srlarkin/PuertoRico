@@ -24,6 +24,7 @@ import static Modules.SetupNumPlayers.*;
  * @author steve
  */
 public class FSetup extends javax.swing.JDialog {
+    private static final long serialVersionUID = 1L;
 
     /** Creates new form FSetup */
     public FSetup(java.awt.Frame parent, boolean modal) {

@@ -19,6 +19,7 @@ import static Modules.Constants.*;
  * @author steve
  */
 public class FGameOver extends javax.swing.JPanel {
+    private static final long serialVersionUID = 1L;
 
     /** Creates new form FGameOver */
     public FGameOver() {

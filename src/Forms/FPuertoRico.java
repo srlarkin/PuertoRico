@@ -52,6 +52,7 @@ import resources.LoadResString;
  * @author steve
  */
 public class FPuertoRico extends javax.swing.JFrame {
+    private static final long serialVersionUID = 1L;
 //TODO:: Cursor Management
 //TODO:: AI decision making
 //TODO:: Popups: e.g. Role cards

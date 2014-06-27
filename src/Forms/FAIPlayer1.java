@@ -22,6 +22,7 @@ import static Modules.Constants.*;
  * @author steve
  */
 public class FAIPlayer1 extends javax.swing.JDialog {
+    private static final long serialVersionUID = 1L;
 
     /** Creates new form FAIPlayer1 */
     public FAIPlayer1(java.awt.Frame parent, boolean modal, SetupPlayerNames sPlayer) {

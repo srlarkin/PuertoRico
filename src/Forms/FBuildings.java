@@ -23,6 +23,7 @@ import static Modules.BuildingIdx.*;
  * @author steve
  */
 public class FBuildings extends javax.swing.JDialog {
+    private static final long serialVersionUID = 1L;
 
     /** Creates new form FBuildings */
     public FBuildings(java.awt.Frame parent, boolean modal) {
