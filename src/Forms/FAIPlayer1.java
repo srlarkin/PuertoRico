@@ -67,7 +67,10 @@ public class FAIPlayer1 extends javax.swing.JDialog {
 //	Done Button
 	playermat.Command1 = jButton1;
 	jButton1.setVisible(false);
-//	this.setIconImage(new java.awt.Image (getClass().getResource( "/resources/Puerto Rico.ico"))); /// TODO::
+        
+        this.setIconImages(Modules.PRGameData.PRFetchResource.FI(
+                new String[] {"icon_16x16","icon_32x32","icon_64x64","icon_128x128"}
+        ));	
 	}
     }
 
