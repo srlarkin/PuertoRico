@@ -6,6 +6,8 @@
 package Modules;
 
 import java.awt.Image;
+import java.util.ArrayList;
+import java.util.List;
 import javax.swing.ImageIcon;
 
 /**
@@ -17,9 +19,13 @@ public class FetchResource {
 public javax.swing.ImageIcon FR(String nResource) {
   return new javax.swing.ImageIcon(getClass().getResource( "/resources/" + nResource + ".jpg"));
 };
-public Image FI(String nIcon) {
- Image img = new ImageIcon(getClass().getResource( "/resources/" + nIcon + ".jpg")).getImage();
-  return img;
+public List<Image> FI(String[] nIcon) {
+    List<Image> icons = new ArrayList<>();    
+    for(String path : nIcon) {
+        Image img = new ImageIcon(getClass().getResource( "/resources/icons/" + path + ".png")).getImage();
+        icons.add(img);
+    }
+    return icons;
 
 }
 
