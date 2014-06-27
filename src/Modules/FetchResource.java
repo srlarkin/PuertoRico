@@ -18,7 +18,7 @@ public javax.swing.ImageIcon FR(String nResource) {
   return new javax.swing.ImageIcon(getClass().getResource( "/resources/" + nResource + ".jpg"));
 };
 public Image FI(String nIcon) {
- Image img = new ImageIcon(getClass().getResource( "/resources/" + nIcon + ".ico")).getImage();
+ Image img = new ImageIcon(getClass().getResource( "/resources/" + nIcon + ".jpg")).getImage();
   return img;
 
 }

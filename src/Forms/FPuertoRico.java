@@ -69,7 +69,7 @@ public class FPuertoRico extends javax.swing.JFrame {
     public FPuertoRico() {
         super();
         initComponents();
-//	this.setIconImage(PRGameData.PRFetchResource.FI("Puerto Rico")); //TODO:: Set Icon
+        this.setIconImage(Modules.PRGameData.PRFetchResource.FI("Puerto Rico"));
 	playermat.iPlayer = SetupPlayerNames.HumanPlayerSPN.ordinal();
 	// All number fields
         playermat.Text1[0] = jTextField1; playermat.Text1[1] = jTextField2;
