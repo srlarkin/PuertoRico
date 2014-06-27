@@ -68,6 +68,7 @@ public class FCopyright extends javax.swing.JDialog {
         jTextArea1.setOpaque(false);
         getContentPane().add(jTextArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, 280, 530));
 
+        jButton1.setText("OK");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
